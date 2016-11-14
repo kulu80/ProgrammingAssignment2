@@ -1,6 +1,4 @@
-## This function computes the inverse of a matix and save it for later use .
-
-makeCacheMatrix <- function(x = matrix()) {
+##This function computes the inverse of a matix and save it for later use .
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
