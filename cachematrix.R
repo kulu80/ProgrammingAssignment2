@@ -1,4 +1,4 @@
-##This function computes the inverse of a matix and save it for later use .
+##This function creates a matrix used for the inverion matrix later .
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function solve the actually matrix inversion
+## This function solve the marrix inversion of the matix created by the above function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
