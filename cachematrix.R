@@ -16,7 +16,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function solve the marrix inversion of the matix created by the above function
+## This function solve the marrix inversion of the matix created by the above function and save 
+                ## And this can be used repeatdly when needed for other computation
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
